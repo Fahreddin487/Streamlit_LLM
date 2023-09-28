@@ -1,7 +1,6 @@
 import os
 import streamlit as st
 from langchain.llms import Replicate
-from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain.callbacks.base import BaseCallbackHandler
